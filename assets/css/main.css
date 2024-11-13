@@ -12,23 +12,10 @@ article.box.excerpt a.image img {
 	max-width:30%; /* Ensures the image doesn't exceed its container's width */
     height: auto; /* Maintains aspect ratio */
 }
-
-
-
 footer img {
     height: 10x;
 	max-width: 50%; /* Ensures the image doesn't exceed its container's width */
     height: auto; /* Maintains aspect ratio */
-}
-
-
-/* Specific styles for mobile devices */
-@media only screen and (max-width: 768px) {
-    #logo img {
-        width: 50px; /* Adjust the width for smaller screens */
-        margin-top: -10px;
-        margin-left: -10px; /* Adjust margins as needed */
-    }
 }
 
 header .inner {
