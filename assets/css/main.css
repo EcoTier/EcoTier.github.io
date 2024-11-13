@@ -22,11 +22,21 @@ footer img {
 }
 
 #logo img {
-	height: 80px;
-	width: auto;
-	margin-top: -26px; /* Moves the image up 10 pixels */
-	margin-left: -38px; /* Moves the image 10 pixels to the left */
-  }
+    /* General styles for all screen sizes */
+    max-width: 27%;
+    height: auto;
+    margin-top: -26px;
+    margin-left: -38px;
+}
+
+/* Specific styles for mobile devices */
+@media only screen and (max-width: 768px) {
+    #logo img {
+        width: 50px; /* Adjust the width for smaller screens */
+        margin-top: -10px;
+        margin-left: -10px; /* Adjust margins as needed */
+    }
+}
 
 header .inner {
     display: flex; /* Flex layout for alignment */
