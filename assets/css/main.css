@@ -21,13 +21,6 @@ footer img {
     height: auto; /* Maintains aspect ratio */
 }
 
-#logo img {
-    /* General styles for all screen sizes */
-    max-width: 27%;
-    height: auto;
-    margin-top: -26px;
-    margin-left: -38px;
-}
 
 /* Specific styles for mobile devices */
 @media only screen and (max-width: 768px) {
